@@ -11,9 +11,3 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.LogIn_SignUp);
         setContentView(R.layout.SignUp);
     }
-}
-
-
-private void TestUpload(){
-    itn i  = 1+1;
-}
