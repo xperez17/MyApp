@@ -1,0 +1,19 @@
+package com.example.xperez.myapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //setContentView(R.layout.LogIn_SignUp);
+        setContentView(R.layout.SignUp);
+    }
+}
+
+
+private void TestUpload(){
+    itn i  = 1+1;
+}
