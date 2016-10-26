@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/road2"
+
     >
 
     <TextView
@@ -66,5 +67,9 @@
         android:layout_below="@+id/editText7"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPrimaryDark" />
+
+
+
+
 
 </RelativeLayout>
