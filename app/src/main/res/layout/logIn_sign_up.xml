@@ -10,7 +10,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.xperez.myapp.MainActivity"
-    android:background="@drawable/road">
+    android:background="@drawable/road5">
+
 
     <Button
         android:text="Log In"
@@ -18,23 +19,27 @@
         android:layout_height="wrap_content"
         style="@android:style/Widget.Button.Inset"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
-        android:layout_marginBottom="62dp"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button"
-        android:backgroundTint="@android:color/darker_gray" />
+        android:layout_marginBottom="26dp"
+        android:id="@+id/log1"
+        android:onClick="logIn"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_above="@+id/create"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Creat account"
+        android:text="Create account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button7"
+        android:id="@+id/create"
         style="@android:style/Widget.Button.Inset"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
-        android:layout_marginBottom="99dp"
+        android:layout_marginBottom="98dp"
+        android:onClick="createAcc"
+        android:backgroundTint="@android:color/darker_gray"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:backgroundTint="@android:color/darker_gray" />
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>

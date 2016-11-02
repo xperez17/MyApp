@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public Button log1;
+    public Button create;
 
     public void one(){
         log1 = (Button)findViewById(R.id.log1);
@@ -17,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent x = new Intent (MainActivity.this,LogInPage.class);
+
+                Intent x = new Intent(MainActivity.this, LogInPage.class);
 
                 startActivity(x);
-
 
             }
         });
@@ -28,14 +29,48 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+             @Override
+             protected void onCreate(Bundle savedInstanceState) {
+             super.onCreate(savedInstanceState);
+             setContentView(R.layout.login_sign_up);
+             one();
+
+
+
+                            }
+
+
+
+public class MainActivity extends AppCompatActivity {
+    private class onClickLitsenter implements View.OnClickListener {
+
+    public void two() {
+        create = (Button) findViewById(R.id.create);
+        create.setOnClickListener(new view.onClickLitsenter(){
         @Override
-        protected void onCreate(Bundle savedInstanceState) {
+        public void onClick(View v) {
+
+
+
+            Intent y = new Intent(MainActivity.this, SignUp.class);
+            startActivity(y);
+        }
+        });
+    }
+
+
+
+
+
+
+        @Override
+        protected void onCreate2 (Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            //setContentView(R.layout.LogIn_SignUp);
+
             setContentView(R.layout.login_sign_up);
-            one();
+            two();
 
 
         }
     }
-
+}
