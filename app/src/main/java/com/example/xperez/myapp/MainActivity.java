@@ -20,12 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent x = new Intent(MainActivity.this, LogInPage.class);
                 startActivity(x);
+
+
             }
         });
 
-        //protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_sign_up);
 
         Button create = (Button) findViewById(R.id.create);
         create.setOnClickListener (new View.OnClickListener() {
