@@ -22,10 +22,11 @@
         android:layout_marginBottom="26dp"
         android:id="@+id/log1"
         android:onClick="logIn"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_above="@+id/create"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <Button
         android:text="Create account"
@@ -36,10 +37,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
         android:layout_marginBottom="98dp"
         android:onClick="createAcc"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimaryDark"/>
 
 
 </RelativeLayout>
