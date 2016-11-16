@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent x = new Intent(MainActivity.this, LogInPage.class);
                 startActivity(x);
-
-
             }
         });
 
@@ -36,5 +34,29 @@ public class MainActivity extends AppCompatActivity {
              }
 
         });
+
+        Button log2 = (Button) findViewById(R.id.log2);
+        log2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+            Intent z = new Intent(MainActivity.this, HomePage.class);
+            startActivity(z);
+        }
+        } );
+
+        Button log3 = (Button) findViewById(R.id.log3);
+        log3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent xx = new Intent(MainActivity.this, HomePage.class);
+                startActivity(xx);
+            }
+        } );
+
+
+
+
     }
 }
