@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         Button create = (Button) findViewById(R.id.create);
         create.setOnClickListener (new View.OnClickListener() {
             @Override
@@ -34,29 +33,5 @@ public class MainActivity extends AppCompatActivity {
              }
 
         });
-
-        Button log2 = (Button) findViewById(R.id.log2);
-        log2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-
-            Intent z = new Intent(MainActivity.this, HomePage.class);
-            startActivity(z);
-        }
-        } );
-
-        Button log3 = (Button) findViewById(R.id.log3);
-        log3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent xx = new Intent(MainActivity.this, HomePage.class);
-                startActivity(xx);
-            }
-        } );
-
-
-
-
     }
 }

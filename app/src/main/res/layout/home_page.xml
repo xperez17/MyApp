@@ -77,7 +77,7 @@
         android:layout_marginTop="2dp" />
 
     <Button
-        android:text="Cars for You"
+        android:text="Cars For You"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button10"
@@ -89,5 +89,18 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="2dp" />
+
+    <Button
+        android:text="Browse "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="viewStart"
+        android:fontFamily="sans-serif"/>
 
 </RelativeLayout>
