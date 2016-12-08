@@ -22,6 +22,16 @@ public class MainActivity2 extends AppCompatActivity {
         }
         } );
 
+       /* Button log1 = (Button) findViewById(R.id.log1);
+        log1.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent x = new Intent(MainActivity2.this, LogInPage.class);
+                startActivity(x);
+            }
+        });*/
+
 
     }
 }
